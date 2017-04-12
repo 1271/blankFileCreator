@@ -4,6 +4,9 @@ import argparse
 
 
 def create_parser():
+    """
+    Arguments parser helper
+    """
     parse = argparse.ArgumentParser()
 
     parse.add_argument("-s", "--size", type=int, required=True, help="size in megabytes (if -g, then gigabytes)")
